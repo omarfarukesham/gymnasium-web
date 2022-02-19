@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.borderBox{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.navDesign{
+    background-color: #00BFA6;
+
+}
+.gym{
+    color: #00BFA6
+}
+
+.btnColor{
+    background-color: #00BFA6;
+    color:whitesmoke;
+}
+.btnColor:hover{
+    background-color: white;
+    color: #00BFA6;
+    transition: 1s;
+    border: 1px solid #00BFA6;
+}
+
+.headerText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.headerText h1{
+    border-bottom: 5px solid #00BFA6;
+    padding: 7px;
+    
+}
+
+
+.textColor{
+    color: #021b18;
+    
+}
+.card--hover:hover{
+    background-color: #00BFA6;
+    opacity: .3;
+    transition: 1s;
+    border-radius: 10px;
+   
+}
+
+#featureDesign{
+    background-color: rgb(245, 237, 222);
+    margin-top:5px;
+}
+.featuretext--color{
+    color:#00BFA6;
+
+}
+.featurebtn--color{
+    background-color: #00BFA6;
+}
+.featurebtn--color:hover{
+    background-color: white;
+    color: #00BFA6;
+    border: 1px solid #00BFA6;
+    transition: .5s;
+}
